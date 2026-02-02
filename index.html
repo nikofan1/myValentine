@@ -287,13 +287,13 @@ msg.textContent = "YAY!!🥳 Date is locked in🥂. I will notify him right now 
       const layer = document.getElementById("poppers");
       if(!layer) return;
 
-      const count = 55; // more/less party
+      const count = 1000; // more/less party
       function rand(min, max){ return Math.random() * (max - min) + min; }
 
       for(let i=0;i<count;i++){
         const p = document.createElement("span");
         p.className = "popper";
-        p.textContent = "🎉";
+        p.textContent = "🎉🥳";
 
         p.style.left = rand(0, 100) + "vw";
         p.style.top  = rand(0, 100) + "vh";
